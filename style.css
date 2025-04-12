@@ -151,7 +151,7 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 16px;
     height: 100%;
@@ -160,6 +160,7 @@ li a {
 .quote p {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
     margin-top: 20px;
 }
@@ -167,7 +168,49 @@ li a {
 .source {
     width: 100%;
     text-align: right;
-    margin-right: 133px;
+    margin-right: 60px;
     margin-top: 10px;
+    font-size: larger;
     font-weight: 900;
+}
+
+.action {
+    height: 350px;
+    padding: 100px 16px 16px 16px;
+}
+
+.action .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.action .text {
+    color: white;
+    line-height: 25px;
+}
+
+.actionbutton {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
