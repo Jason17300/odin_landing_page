@@ -103,3 +103,40 @@ li a {
     font-weight: bolder;
     font-size: large;
 }
+
+.information {
+    height: 450px;
+}
+
+.information .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    height: 300px;
+}
+
+.information img {
+    max-width: 250px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.information .title {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.information .text {
+    text-align: center;
+    max-width: 250px;
+    margin-top: 10px;
+}
