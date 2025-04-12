@@ -58,7 +58,7 @@ li a {
 
 .header {
     background-color: #1f2937;
-    height: 400px;
+    height: 500px;
 }
 
 .header .container {
@@ -68,12 +68,12 @@ li a {
     width: 1200px;
     margin: 0 auto;
     height: 100%;
-    padding: 16px;
+    padding: 0 16px 16px 16px;
 }
 
 .header img {
-    width: 500px;
-    height: 250px;
+    width: 570px;
+    height: 285px;
 }
 
 .header .text {
@@ -105,7 +105,7 @@ li a {
 }
 
 .information {
-    height: 450px;
+    height: 500px;
 }
 
 .information .container {
@@ -121,7 +121,7 @@ li a {
 
 .information img {
     max-width: 250px;
-    height: 200px;
+    height: 235px;
     border: 2px solid #3882f6;
     border-radius: 8px;
 }
@@ -132,11 +132,42 @@ li a {
     color: #1f2937;
     font-weight: 900;
     margin-top: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .information .text {
     text-align: center;
     max-width: 250px;
     margin-top: 10px;
+}
+
+.quote {
+    height: 350px;
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    height: 100%;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 20px;
+}
+
+.source {
+    width: 100%;
+    text-align: right;
+    margin-right: 133px;
+    margin-top: 10px;
+    font-weight: 900;
 }
